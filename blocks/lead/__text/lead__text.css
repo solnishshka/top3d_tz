@@ -1,0 +1,18 @@
+.lead__text{
+    font-size: 16px;
+    font-family: 'SF Pro Text', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 15px;
+    letter-spacing: -0.7px;
+}
+
+.lead__text:last-of-type{
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 950px){
+    .lead__text{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width: 949px){
+    .button__text_type_login{
+        display: none;
+    }
+}

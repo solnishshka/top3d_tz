@@ -1,0 +1,16 @@
+.header__market-link {
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  transition: opacity 1s linear;
+}
+
+.header__market-link:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1023px){
+  .header__market-link{
+    display: none;
+  }
+}

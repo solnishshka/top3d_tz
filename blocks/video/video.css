@@ -1,0 +1,22 @@
+.video {
+    background-color: #F9F9F9;
+    max-width: 1160px;
+    margin: 0 auto;
+    height: 100%;
+    margin-top: 70px;
+    margin-bottom: 105px;
+    padding: 70px 137px;
+}
+
+@media screen and (max-width: 1024px){
+    .video{
+        padding: 70px;
+    }
+}
+
+@media screen and (max-width: 489px){
+    .video{
+        padding: 20px;
+        margin-bottom: 80px;
+    }
+}

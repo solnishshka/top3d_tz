@@ -1,0 +1,22 @@
+.video__button{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px 0px 0px 4px;
+    transition: opacity 1s linear;
+    background-color: inherit;
+}
+
+.video__button:last-of-type{
+    border-left: none;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.video__button:focus {
+    outline: none;
+}
+
+.video__button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}

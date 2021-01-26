@@ -1,0 +1,15 @@
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  padding: 0;
+  width: 100%;
+}
+@media screen and (max-width: 950px) {
+  .menu {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+.header__title {
+  margin: 0;
+  max-width: 133px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.36;
+}
+
+@media screen and (max-width: 768px) {
+  .header__title {
+    margin-right: auto;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 489px) {
+  .header__title {
+    display: none;
+  }
+}

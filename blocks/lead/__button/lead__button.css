@@ -1,0 +1,8 @@
+.lead__button{
+    height: 44px;
+    width: 280px;
+    border: none;
+    border-radius: 4px;
+    background-color: #D2001C;
+    color: #FFF;
+}

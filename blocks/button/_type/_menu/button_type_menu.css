@@ -1,0 +1,11 @@
+.button_type_menu{
+    color: #d2001c;
+    background-color: #fff;
+    margin-right: 20px;
+}
+
+@media screen and (min-width: 951px){
+    .button_type_menu{
+        display: none;
+    }
+}

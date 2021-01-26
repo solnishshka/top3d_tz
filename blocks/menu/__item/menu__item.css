@@ -1,0 +1,23 @@
+.menu__item{
+    border: none;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.36;
+    padding: 0;
+}
+
+.menu__item:hover{
+    cursor: pointer;
+}
+
+.menu__item:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 1279px){
+    .menu__item{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,13 @@
+.video__image {
+  width: 48%;
+  max-width: 550px;
+}
+
+@media screen and (max-width: 767px) {
+  .video__image {
+    width: 100%;
+  }
+  .video__image:first-of-type {
+    margin-bottom: 20px;
+  }
+}

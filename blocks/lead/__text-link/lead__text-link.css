@@ -1,0 +1,10 @@
+.lead__text-link {
+  color: #d2001c;
+  text-decoration: underline;
+  transition: opacity 1s linear;
+}
+
+.lead__text-link:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}

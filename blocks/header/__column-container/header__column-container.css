@@ -1,0 +1,19 @@
+.header__column-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1023px){
+    .header__column-container{
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    .header__column-container:last-of-type{
+        align-items: flex-end;
+    }
+}

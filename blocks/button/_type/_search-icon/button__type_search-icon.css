@@ -1,0 +1,11 @@
+.button__type_search-mini{
+    color: #d2001c;
+    background-color: #fff;
+    margin-right: 20px;
+}
+
+@media screen and (min-width: 769px){
+    .button__type_search-mini{
+        display: none;
+    }
+}

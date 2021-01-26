@@ -1,0 +1,16 @@
+.header__search{
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    height: 36px;
+    width: 40%;
+    max-width: 520px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+@media screen and (max-width: 768px){
+    .header__search{
+        display: none;
+    }
+}

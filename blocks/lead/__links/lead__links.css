@@ -1,0 +1,12 @@
+.lead__links{
+    margin-top: 50px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+@media screen and (max-width: 1023px){
+    .lead__links{
+        flex-direction: column;
+    }
+}

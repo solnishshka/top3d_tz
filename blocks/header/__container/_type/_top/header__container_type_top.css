@@ -1,0 +1,11 @@
+.header__container_type_top{
+    min-height: 73px;
+    padding-top: 16px;
+    align-items: center;
+}
+
+@media screen and (max-width: 950px){
+    .header__container_type_top{
+        padding: 16px;
+    }
+}

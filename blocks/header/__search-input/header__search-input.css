@@ -1,0 +1,7 @@
+.header__search-input {
+  border: none;
+  font-weight: 600;
+  max-width: 400px;
+  width: 70%;
+  overflow: hidden;
+}

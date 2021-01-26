@@ -1,0 +1,14 @@
+.button_type_lead{
+    font-size: 16px;
+    height: 44px;
+    width: 280px;
+    font-family: 'SF Pro Text', sans-serif;
+    font-weight: 500;
+    line-height: 1.18;
+}
+
+@media screen and (max-width: 950px){
+    .button_type_lead{
+        width: 240px;
+    }
+}

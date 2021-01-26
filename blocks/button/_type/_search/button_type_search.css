@@ -1,0 +1,8 @@
+.button_type_search{
+    width: 20%;
+    max-width: 75px;
+    height: 36px;
+    border: 2px solid #D2001C;
+    background-color: #fff;
+    color: #D2001C;
+}
