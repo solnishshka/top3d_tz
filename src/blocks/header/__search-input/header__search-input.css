@@ -1,0 +1,14 @@
+.header__search-input {
+  border: none;
+  font-weight: 600;
+  max-width: 400px;
+  width: 70%;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1024px){
+  .header__search-input{
+    font-size: 10px;
+    text-overflow: ellipsis;
+  }
+}

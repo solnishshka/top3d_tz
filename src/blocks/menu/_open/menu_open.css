@@ -1,0 +1,8 @@
+.menu_open{
+    display: flex;
+}
+@media screen and (max-width: 950px) {
+  .menu_open {
+    display: flex;
+  }
+}

@@ -1,0 +1,15 @@
+.header__mail-link {
+    font-weight: 600;
+    transition: opacity 1s linear;
+}
+
+.header__mail-link:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 950px){
+    .header__mail-link{
+        display: none;
+    }
+}

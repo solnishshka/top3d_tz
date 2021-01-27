@@ -1,0 +1,16 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  width: calc(100% - 240px);
+  max-width: 1200px;
+  padding: 0 120px;
+  position: relative;
+}
+
+@media screen and (max-width: 1279px) {
+    .header__container {
+      width: calc(100% - 40px);
+      padding: 0 20px;
+    }
+  }

@@ -1,0 +1,22 @@
+.button_type_header {
+  background-color: inherit;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  padding: 0;
+  line-height: 1.36;
+}
+
+.button_type_header:hover {
+  cursor: pointer;
+}
+
+.button_type_header:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 950px){
+    .button_type_header{
+        display: none;
+    }
+}

@@ -1,0 +1,19 @@
+.header__social-link {
+  margin-right: 20px;
+  transition: opacity 1s linear;
+}
+
+.header__social-link:last-of-type {
+  margin: 0;
+}
+
+.header__social-link:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 489px){
+    .header__social-link{
+        margin-right: 10px;
+    }
+}
