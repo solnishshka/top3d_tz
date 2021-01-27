@@ -3,6 +3,7 @@
 @import url(../vendor/fonts/font.css);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
+@import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/main/main.css);
 
@@ -14,8 +15,6 @@
 @import url(../blocks/header/__container/_type/_top/header__container_type_top.css);
 @import url(../blocks/header/__container/_type/_bottom/header__container_type_bottom.css);
 @import url(../blocks/header/__title/header__title.css);
-
-@import url(../blocks/header/__contacts/header__contacts.css);
 @import url(../blocks/header/__column-container/header__column-container.css);
 @import url(../blocks/header/__text/header__text.css);
 @import url(../blocks/header/__social-link/header__social-link.css);
@@ -29,6 +28,9 @@
 @import url(../blocks/header/__search/header__search.css);
 @import url(../blocks/header/__market-image/header__market-image.css);
 @import url(../blocks/header/__title-span/header__title-span.css);
+@import url(../blocks/header/__logo/_invisible/header__logo_invisible.css);
+@import url(../blocks/header/__search/_visible/header__search_visible.css);
+@import url(../blocks/header/__title/_invisible/header__title_invisible.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__image/lead__image.css);
@@ -74,8 +76,9 @@
 @import url(../blocks/button/__image/_type/_cart/button__image_type_cart.css);
 @import url(../blocks/button/_type/_video/button_type_video.css);
 @import url(../blocks/button/_type/_menu/button_type_menu.css);
-@import url(../blocks/button/_type/_search-icon/button__type_search-icon.css);
+@import url(../blocks/button/_type/_search-icon/button_type_search-icon.css);
 @import url(../blocks/button/__text/_type/_login/button__text_type_login.css);
 @import url(../blocks/button/_type/_header/button_type_header.css);
+@import url(../blocks/button/_invisible/button_invisible.css);
 
 @import url(../blocks/fa/fa.css);

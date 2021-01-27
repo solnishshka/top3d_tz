@@ -1,0 +1,5 @@
+.header__search_visible{
+    display: flex;
+    width: 60%;
+    height: 30px;
+}
