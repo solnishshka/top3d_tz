@@ -1,1 +1,0 @@
-(()=>{"use strict";var e=document.querySelector(".menu_type_top"),s=document.querySelector(".button_type_menu"),t=document.querySelector(".fa"),a="fa-bars",c="fa-times";s.addEventListener("click",(function(){e.classList.toggle("menu_open"),t.classList.contains("fa-bars")?(t.classList.remove(a),t.classList.add(c)):(t.classList.add(a),t.classList.remove(c))}))})();
