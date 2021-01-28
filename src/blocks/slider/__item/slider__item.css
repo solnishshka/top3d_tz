@@ -1,0 +1,13 @@
+.slider__item {
+  width: 45%;
+  /* display: none; */
+}
+
+@media screen and (max-width: 768px) {
+  .slider__item {
+    width: 100%;
+  }
+  .slider__item:last-of-type {
+    display: none;
+  }
+}

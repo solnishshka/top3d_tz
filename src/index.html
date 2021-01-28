@@ -114,8 +114,7 @@
               Ваш эксперт на рынке
               <span class="header__title-span">3D</span>-техники
             </h2>
-            <a class="header__market-link"
-              ></a>
+            <a class="header__market-link"></a>
             <div class="header__search">
               <input
                 class="header__search-input"
@@ -163,15 +162,33 @@
 
           <nav class="header__container">
             <ul class="menu menu_type_top">
-              <li class="menu__item"><a class="menu__link" href="#">Акции</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">О нас</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">Мероприятия</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">Оплата и доставка</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">Что с моим заказом?</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">Гос. закупки</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">Блог</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">Мастер-классы</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Акции</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">О нас</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Мероприятия</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Оплата и доставка</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Что с моим заказом?</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Гос. закупки</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Блог</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Мастер-классы</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Контакты</a>
+              </li>
             </ul>
           </nav>
           <nav class="header__container header__container_type_bottom">
@@ -508,7 +525,7 @@
           <div class="video__container">
             <h2 class="video__title">Видео о нас</h2>
             <div class="video__buttons">
-              <button class="button button_type_video">
+              <button class="slider__button slider__button_type_prev">
                 <svg
                   width="11"
                   height="19"
@@ -524,7 +541,7 @@
                     stroke-linejoin="round"
                   />
                 </svg></button
-              ><button class="button button_type_video">
+              ><button class="slider__button slider__button_type_next">
                 <svg
                   width="11"
                   height="19"
@@ -543,21 +560,30 @@
               </button>
             </div>
           </div>
-          <div class="video__container video__container_type_bottom">
-            <img
-              class="video__image"
-              src="<%=require('./images/img_1.png')%>"
-              alt="Превью видео"
-            />
-            <img
-              class="video__image"
-              src="<%=require('./images/img_2.png')%>"
-              alt="Превью видео"
-            />
-          </div>
+          <ul class="slider">
+            <li class="slider__item">
+              <img
+                class="slider__image"
+                src="<%=require('./images/img_1.png')%>"
+                alt="Превью видео"
+              />
+            </li>
+            <li class="slider__item">
+              <img
+                class="slider__image"
+                src="<%=require('./images/img_2.png')%>"
+                alt="Превью видео"
+              />
+            </li>
+          </ul>
         </section>
       </main>
       <footer></footer>
     </div>
+    <template id="slide">
+      <li class="slider__item">
+        <img class="slider__image" />
+      </li>
+    </template>
   </body>
 </html>

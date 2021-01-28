@@ -74,11 +74,15 @@
 @import url(../blocks/button/__text/button__text.css);
 @import url(../blocks/button/__image/button__image.css);
 @import url(../blocks/button/__image/_type/_cart/button__image_type_cart.css);
-@import url(../blocks/button/_type/_video/button_type_video.css);
 @import url(../blocks/button/_type/_menu/button_type_menu.css);
 @import url(../blocks/button/_type/_search-icon/button_type_search-icon.css);
 @import url(../blocks/button/__text/_type/_login/button__text_type_login.css);
 @import url(../blocks/button/_type/_header/button_type_header.css);
 @import url(../blocks/button/_invisible/button_invisible.css);
+
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__item/slider__item.css);
+@import url(../blocks/slider/__image/slider__image.css);
+@import url(../blocks/slider/__button/slider__button.css);
 
 @import url(../blocks/fa/fa.css);

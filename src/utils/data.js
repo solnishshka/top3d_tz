@@ -1,0 +1,13 @@
+export const slides = document.querySelectorAll('.slider__item')
+export const prevButton = document.querySelector('.slider__button_type_prev');
+export const nextButton = document.querySelector('.slider__button_type_next');
+export const searchElement = document.querySelector('.header__search')
+export const logo = document.querySelector('.header__logo')
+export const headerTitle = document.querySelector('.header__title')
+export const searchButton = document.querySelector('.button_type_search-icon')
+export const topMenu = document.querySelector('.menu_type_top')
+export const openMenuSelector = 'menu_open'
+export const menuButton = document.querySelector('.button_type_menu')
+export const menuIcon = document.querySelector('.fa')
+export const menuButtonClass = 'fa-bars'
+export const menuCloseButtonClass = 'fa-times'
