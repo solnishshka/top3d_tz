@@ -13,9 +13,10 @@ import {
   menuButtonClass,
   menuCloseButtonClass,
 } from '../utils/data'
+
 import Slider from '../components/slider'
 
-const imageSlider = new Slider(1)
+const imageSlider = new Slider(0)
 
 imageSlider.renderSlides()
 
